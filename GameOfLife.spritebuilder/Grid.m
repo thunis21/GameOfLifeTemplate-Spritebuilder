@@ -37,6 +37,7 @@ static const int GRID_COLUMNS=10;
     float x=0;
     float y=0;
     
+    _gridArray=[NSMutableArray array];
     
     for(int i=0;i<GRID_ROWS;i++){
         _gridArray[i]=[NSMutableArray array];
